@@ -1,0 +1,18 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+  mode: "debug"
+  read_timeout: 60
+  write_timeout: 60
+
+database:
+  host: 0.0.0.0
+  port: 3306
+  user: "root"
+  password: "root"
+  dbname: "simple_web_go"
+  charset: "utf8mb4"
+  parse_time: true
+  max_idle_conns: 10
+  max_open_conns: 100
+  conn_max_lifetime: 3600
